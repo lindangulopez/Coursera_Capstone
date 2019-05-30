@@ -26,7 +26,7 @@ import pandas as pd
 
 # In[3]:
 
-print('Hello Capstone Project Course!')'
+print('Hello Capstone Project Course!')
 
 
 # In[4]:

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_53f0aac587cd45d08cbb7cd7ccd2c11f {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_53f0aac587cd45d08cbb7cd7ccd2c11f" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_53f0aac587cd45d08cbb7cd7ccd2c11f = L.map(
+                                  'map_53f0aac587cd45d08cbb7cd7ccd2c11f',
+                                  {center: [48.8396154,2.3957517],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_a527e24669cd409981eba1d6c4f163a8 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_53f0aac587cd45d08cbb7cd7ccd2c11f);
+        
+    
+            var circle_marker_15e39eb06164466d83b6e6582df76be8 = L.circleMarker(
+                [48.8528735,2.3637226000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_53f0aac587cd45d08cbb7cd7ccd2c11f);
+            
+    
+            var popup_16b864bde8eb4074b9ac705d9a7d0774 = L.popup({maxWidth: '300'});
+
+            
+                var html_b83fefceb026484897bee586b54fa206 = $('<div id="html_b83fefceb026484897bee586b54fa206" style="width: 100.0%; height: 100.0%;">Bel-Air</div>')[0];
+                popup_16b864bde8eb4074b9ac705d9a7d0774.setContent(html_b83fefceb026484897bee586b54fa206);
+            
+
+            circle_marker_15e39eb06164466d83b6e6582df76be8.bindPopup(popup_16b864bde8eb4074b9ac705d9a7d0774);
+
+            
+        
+    
+            var circle_marker_04bc7f59bd6149008835b3091d2f1075 = L.circleMarker(
+                [48.8343847,2.3872236],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_53f0aac587cd45d08cbb7cd7ccd2c11f);
+            
+    
+            var popup_dde9a4d7485f412f855af0f00fc46d11 = L.popup({maxWidth: '300'});
+
+            
+                var html_05431f8966b640e5a46f690b1132e9e2 = $('<div id="html_05431f8966b640e5a46f690b1132e9e2" style="width: 100.0%; height: 100.0%;">Picpus</div>')[0];
+                popup_dde9a4d7485f412f855af0f00fc46d11.setContent(html_05431f8966b640e5a46f690b1132e9e2);
+            
+
+            circle_marker_04bc7f59bd6149008835b3091d2f1075.bindPopup(popup_dde9a4d7485f412f855af0f00fc46d11);
+
+            
+        
+    
+            var circle_marker_d104b2124e854e4d816ae02df363c197 = L.circleMarker(
+                [48.8394867,2.3905227000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_53f0aac587cd45d08cbb7cd7ccd2c11f);
+            
+    
+            var popup_d57e3380158e426db08ffadfe40de224 = L.popup({maxWidth: '300'});
+
+            
+                var html_7401cf6d854d4ff2b0356dfcad3f14be = $('<div id="html_7401cf6d854d4ff2b0356dfcad3f14be" style="width: 100.0%; height: 100.0%;">Bercy</div>')[0];
+                popup_d57e3380158e426db08ffadfe40de224.setContent(html_7401cf6d854d4ff2b0356dfcad3f14be);
+            
+
+            circle_marker_d104b2124e854e4d816ae02df363c197.bindPopup(popup_d57e3380158e426db08ffadfe40de224);
+
+            
+        
+    
+            var circle_marker_f4dd6d2703194f87bdb8ba9e20445439 = L.circleMarker(
+                [48.8512501,2.3701095000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_53f0aac587cd45d08cbb7cd7ccd2c11f);
+            
+    
+            var popup_e98121a96e35476394ada6703a28496c = L.popup({maxWidth: '300'});
+
+            
+                var html_add7db69f5664af9b463c3792457f2bd = $('<div id="html_add7db69f5664af9b463c3792457f2bd" style="width: 100.0%; height: 100.0%;">Quinze-Vingts</div>')[0];
+                popup_e98121a96e35476394ada6703a28496c.setContent(html_add7db69f5664af9b463c3792457f2bd);
+            
+
+            circle_marker_f4dd6d2703194f87bdb8ba9e20445439.bindPopup(popup_e98121a96e35476394ada6703a28496c);
+
+            
+        
+</script>

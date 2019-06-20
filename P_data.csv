@@ -1,81 +1,81 @@
-,Borough,Neighborhood,latitude,longitude
-0,1st arrondissement du Louvre,Saint-Germain-l'Auxerrois,48.8596955,2.3406333
-1,1st arrondissement du Louvre,Les Halles,48.8621566,2.344796128
-2,1st arrondissement du Louvre,Palais-Royal,48.864605100000006,2.336050684
-3,1st arrondissement du Louvre,Place-Vendome,48.867321600000004,2.3294834
-4,2nd arrondissement de la Bourse,Gaillon,48.86913515,2.33290877
-5,2nd arrondissement de la Bourse,Vivienne,48.86885895,2.339362558
-6,2nd arrondissement de la Bourse,Mail,48.854829200000005,2.2939613999999997
-7,2nd arrondissement de la Bourse,Bonne-Nouvelle,48.8670566,2.350124944
-8,3rd arrondissement du Temple,Arts-et-Metiers,48.86635689999999,2.3489472
-9,3rd arrondissement du Temple,Enfants-Rouges,48.8643317,2.362608441
-10,3rd arrondissement du Temple,Archives,48.85957135,2.362572744
-11,3rd arrondissement du Temple,Sainte-Avoye,48.86269975,2.3541317040000003
-12,4th arrondissement de l'Hotel-de-Ville,Saint-Merry,48.858266,2.3473697000000002
-13,5th arrondissement de l'Hotel-de-Ville,Saint-Gervais,48.8558122,2.349589
-14,6th arrondissement de l'Hotel-de-Ville,Arsenal,48.8503342,2.3553269
-15,7th arrondissement de l'Hotel-de-Ville,Notre-Dame,48.854079600000006,2.3393502999999995
-16,5th arrondissement du Pantheon,Quartier Saint-Victor,48.84768820000001,2.3460252
-17,5th arrondissement du Pantheon,Jardin-des-Plantes,48.843835799999994,2.3534336
-18,5th arrondissement du Pantheon,Val-de-Grâce,48.84221255,2.3438903769999997
-19,5th arrondissement du Pantheon,Sorbonne,48.84912335,2.34532515
-20,6th arrondissement du Luxembourg,Monnaie,48.85458085,2.340154398
-21,6th arrondissement du Luxembourg,Odeon,48.8438344,2.3403014
-22,6th arrondissement du Luxembourg,Notre-Dame-des-Champs,48.850582,2.3302443
-23,6th arrondissement du Luxembourg,Saint-Germain-des-Pres,48.85547485,2.333894855
-24,7th arrondissement du Palais-Bourbon,Saint-Thomas-d'Aquin,48.854829200000005,2.2939613999999997
-25,7th arrondissement du Palais-Bourbon,Les Invalides,48.8592217,2.3135748
-26,7th arrondissement du Palais-Bourbon,Ecole-Militaire,48.8525155,2.3013007
-27,7th arrondissement du Palais-Bourbon,Gros-Caillou,48.854829200000005,2.2939613999999997
-28,8th arrondissement de l'Elysee,Champs-Elysee,48.87323320000001,2.2935703999999997
-29,8th arrondissement de l'Elysee,Faubourg-du-Roule,48.87174470000001,2.3080853
-30,8th arrondissement de l'Elysee,La Madeleine,48.8702295,2.3162747
-31,8th arrondissement de l'Elysee,Europe,48.8702295,2.3162747
-32,9th arrondissement de l'Opera,Saint-Georges,48.87638079999999,2.3310277999999998
-33,9th arrondissement de l'Opera,Chaussee_d'Antin,48.8719697,2.3294127000000002
-34,9th arrondissement de l'Opera,Faubourg-Montmartre,48.87441,2.3398855
-35,9th arrondissement de l'Opera,Rochechouart,48.880122,2.3402031
-36,10th arrondissement de l'Entrepot,Saint-Vincent-de-Paul,48.878677200000006,2.3496580000000002
-37,10th arrondissement de l'Entrepot,Porte-Saint-Denis,48.8733439,2.3487476000000003
-38,10th arrondissement de l'Entrepot,Porte-Saint-Martin,48.86914829999999,2.3534936
-39,10th arrondissement de l'Entrepot,Hopital-Saint-Louis,48.8734065,2.3675812
-40,11th arrondissement de Popincourt,Folie-Mericourt,48.8648577,2.368117
-41,11th arrondissement de Popincourt,Saint-Ambroise,48.861908899999996,2.3684397
-42,11th arrondissement de Popincourt,La Roquette,48.8570275,2.3763581
-43,11th arrondissement de Popincourt,Sainte-Marguerite,48.8528749,2.3790435000000003
-44,12th arrondissement de Reuilly,Bel-Air,48.8528735,2.3637226000000005
-45,12th arrondissement de Reuilly,Picpus,48.8343847,2.3872236
-46,12th arrondissement de Reuilly,Bercy,48.8394867,2.3905227000000004
-47,12th arrondissement de Reuilly,Quinze-Vingts,48.8512501,2.3701095000000003
-48,13th arrondissement des Gobelins,Salpetriere,48.8351555,2.351582
-49,13th arrondissement des Gobelins,La Gare,48.82789775,2.372877071
-50,13th arrondissement des Gobelins,Maison-Blanche,48.8253562,2.3414422000000004
-51,13th arrondissement des Gobelins,Croulebarbe,48.8347946,2.348047
-52,14th arrondissement de l'Observatoire,Montparnasse,48.8355214,2.3343553
-53,14th arrondissement de l'Observatoire,Parc Montsouris,48.8223803,2.3378614
-54,14th arrondissement de l'Observatoire,Petit-Montrouge,48.828619700000004,2.3190311
-55,14th arrondissement de l'Observatoire,Plaisance,48.83244570000001,2.3072627
-56,15th arrondissement de Vaugirard,Saint-Lambert,48.8377867,2.2939486000000002
-57,15th arrondissement de Vaugirard,Necker,48.8418092,2.3013287
-58,15th arrondissement de Vaugirard,Grenelle,48.8505151,2.2839762
-59,15th arrondissement de Vaugirard,Javel,48.8385722,2.2725247000000004
-60,16th arrondissement de Passy,Auteuil,48.8570816,2.2278736
-61,16th arrondissement de Passy,La Muette,48.858416999999996,2.2708532999999997
-62,16th arrondissement de Passy,Porte-Dauphine,48.8716262,2.2537689999999997
-63,16th arrondissement de Passy,Chaillot,48.8615963,2.2870936
-64,17th arrondissement des Batignolles-Monceau,Les Ternes,48.887401000000004,2.2875199
-65,17th arrondissement des Batignolles-Monceau,Plaine Monceau,48.8843357,2.2952977000000003
-66,17th arrondissement des Batignolles-Monceau,Batignolles,48.8848532,2.3135095000000003
-67,17th arrondissement des Batignolles-Monceau,Epinettes,48.8912408,2.3126872000000005
-68,18th arrondissement des Buttes-Montmartre,Grandes-Carrieres,48.8901299,2.3232649
-69,18th arrondissement des Buttes-Montmartre,Clignancourt,48.883937,2.3451726
-70,18th arrondissement des Buttes-Montmartre,Goutte-d'Or,48.891133700000005,2.3460763
-71,18th arrondissement des Buttes-Montmartre,La Chapelle,48.886191,2.3255798999999997
-72,19th arrondissement des Buttes-Chaumont,La Villette,48.8818586,2.3721922
-73,19th arrondissement des Buttes-Chaumont,Pont-de-Flandres,48.8870941,2.3702204
-74,19th arrondissement des Buttes-Chaumont,Amerique,48.8779557,2.3853066000000003
-75,19th arrondissement des Buttes-Chaumont,Combat,48.879205799999994,2.3768467999999996
-76,20th arrondissement de Menilmontant,Belleville,48.871123100000005,2.3779658
-77,20th arrondissement de Menilmontant,Saint-Fargeau,48.8697905,2.3933967999999997
-78,20th arrondissement de Menilmontant,Pere-Lachaise,48.8592722,2.3916061
-79,20th arrondissement de Menilmontant,Charonne,48.85570560000001,2.3941297
+,Unnamed: 0,Borough,Neighborhood,Address,Coordinates,latitude,longitude
+0,0,1st arrondissement du Louvre,Saint-Germain-l'Auxerrois,"1st arrondissement du Louvre, 1st, Saint-Germain-l'Auxerrois","Saint-Germain l'Auxerrois, Accès Parking Saint-Germain l'Auxerrois, St-Germain-l'Auxerrois, 1er, Paris, Île-de-France, France métropolitaine, 75001, France",48.8596955,2.3406333
+1,1,1st arrondissement du Louvre,Les Halles,"1st arrondissement du Louvre, 2nd , Les Halles","Les Halles, 1er, Paris, Île-de-France, France métropolitaine, 75001, France",48.8621566,2.344796128
+2,2,1st arrondissement du Louvre,Palais-Royal,"1st arrondissement du Louvre, 3rd , Palais-Royal","Palais Royal, 1er, Paris, Île-de-France, France métropolitaine, 75001, France",48.864605100000006,2.336050684
+3,3,1st arrondissement du Louvre,Place-Vendome,"1st arrondissement du Louvre, 4th , Place-Vendome","Place Vendôme, Vendôme, 1er, Paris, Île-de-France, France métropolitaine, 75001, France",48.867321600000004,2.3294834
+4,4,2nd arrondissement de la Bourse,Gaillon,"2nd arrondissement de la Bourse, 5th, Gaillon","Gaillon, 2e, Paris, Île-de-France, France métropolitaine, 75002, France",48.86913515,2.33290877
+5,5,2nd arrondissement de la Bourse,Vivienne,"2nd arrondissement de la Bourse, 6th , Vivienne","Vivienne, 2e, Paris, Île-de-France, France métropolitaine, 75002, France",48.86885895,2.339362558
+6,6,2nd arrondissement de la Bourse,Mail,"2nd arrondissement de la Bourse, 7th , Mail",7e+Arrondissement+de+Paris,48.854829200000005,2.2939613999999997
+7,7,2nd arrondissement de la Bourse,Bonne-Nouvelle,"2nd arrondissement de la Bourse, 8th , Bonne-Nouvelle","Bonne-Nouvelle, 2e, Paris, Île-de-France, France métropolitaine, 75002, France",48.8670566,2.350124944
+8,8,3rd arrondissement du Temple,Arts-et-Metiers,"3rd arrondissement du Temple, 9th, Arts-et-Metiers","Arts+et+M�tiers,+75003+Paris",48.86635689999999,2.3489472
+9,9,3rd arrondissement du Temple,Enfants-Rouges,"3rd arrondissement du Temple, 10th , Enfants-Rouges","Enfants Rouges, 3e, Paris, Île-de-France, France métropolitaine, 75003, France",48.8643317,2.362608441
+10,10,3rd arrondissement du Temple,Archives,"3rd arrondissement du Temple, 11th , Archives","Archives, 3e, Paris, Île-de-France, France métropolitaine, 75003, France",48.85957135,2.362572744
+11,11,3rd arrondissement du Temple,Sainte-Avoye,"3rd arrondissement du Temple, 12th , Sainte-Avoye","Ste-Avoye, 3e, Paris, Île-de-France, France métropolitaine, 75003, France",48.86269975,2.3541317040000003
+12,12,4th arrondissement de l Hotel de Ville,Saint-Merry,"4th arrondissement de l'Hotel-de-Ville, 13th, Saint-Merri","Saint-Merri,+75004+Paris",48.858266,2.3473697000000002
+13,13,4th arrondissement de l Hotel de Ville,Saint-Gervais,"4th arrondissement de l'Hotel-de-Ville, 14th , Saint-Gervais","St+Gervais,+75004+Paris",48.8558122,2.349589
+14,14,4th arrondissement de l Hotel de Ville,Arsenal,"4th arrondissement de l'Hotel-de-Ville, 15th , Arsenal","Arsenal,+Paris",48.8503342,2.3553269
+15,15,4th arrondissement de l Hotel de Ville,Notre-Dame,"4th arrondissement de l'Hotel-de-Ville, 16th , Notre-Dame","4th+arrondissement+de+l'Hotel-de-Ville,+16th+,+Notre-Dame",48.854079600000006,2.3393502999999995
+16,16,5th arrondissement du Pantheon,Quartier Saint-Victor,"5th arrondissement du Pantheon , 17th, Quartier Saint-Victor","St+Victor,+75005+Paris",48.84768820000001,2.3460252
+17,17,5th arrondissement du Pantheon,Jardin-des-Plantes,"5th arrondissement du Pantheon , 18th , Jardin-des-Plantes","5th+arrondissement+du+Pantheon+,+18th+,+Jardin-des-Plantes",48.843835799999994,2.3534336
+18,18,5th arrondissement du Pantheon,Val-de-Grâce,"5th arrondissement du Pantheon , 19th , Val-de-Grâce","Val-de-Grâce, 5e, Paris, Île-de-France, France métropolitaine, 75005, France",48.84221255,2.3438903769999997
+19,19,5th arrondissement du Pantheon,Sorbonne,"5th arrondissement du Pantheon , 20th , Sorbonne","Sorbonne, 5e, Paris, Île-de-France, France métropolitaine, 75005, France",48.84912335,2.34532515
+20,20,6th arrondissement du Luxembourg,Monnaie,"6th arrondissement du Luxembourg, 21st, Monnaie","Monnaie, 6e, Paris, Île-de-France, France métropolitaine, 75006, France",48.85458085,2.340154398
+21,21,6th arrondissement du Luxembourg,Odeon,"6th arrondissement du Luxembourg, 22nd , Odeon","6th+arrondissement+du+Luxembourg,+22nd+,+Odeon",48.8438344,2.3403014
+22,22,6th arrondissement du Luxembourg,Notre-Dame-des-Champs,"6th arrondissement du Luxembourg, 23rd , Notre-Dame-des-Champs",Mairie+du+6e+arrondissement,48.850582,2.3302443
+23,23,6th arrondissement du Luxembourg,Saint-Germain-des-Pres,"6th arrondissement du Luxembourg, 24th , Saint-Germain-des-Pres","St-Germain-des-Prés, 6e, Paris, Île-de-France, France métropolitaine, 75006, France",48.85547485,2.333894855
+24,24,7th arrondissement du Palais-Bourbon,Saint-Thomas-d'Aquin,"7th arrondissement du Palais-Bourbon , 25th, Saint-Thomas-d'Aquin","7th+arrondissement+du+Palais-Bourbon+,+25th,+Saint-Thomas-d'Aquin",48.854829200000005,2.2939613999999997
+25,25,7th arrondissement du Palais-Bourbon,Les Invalides,"7th arrondissement du Palais-Bourbon , 26th , Les Invalides","7th+arrondissement+du+Palais-Bourbon+,+26th+,+Les+Invalides",48.8592217,2.3135748
+26,26,7th arrondissement du Palais-Bourbon,Ecole-Militaire,"7th arrondissement du Palais-Bourbon , 27th , Ecole-Militaire",CSFRS+%2F+GeoStrategia+-+�cole+Militaire,48.8525155,2.3013007
+27,27,7th arrondissement du Palais-Bourbon,Gros-Caillou,"7th arrondissement du Palais-Bourbon , 28th , Gros-Caillou","7e+Arrondissement+de+Paris,+75007+Paris",48.854829200000005,2.2939613999999997
+28,28,8th arrondissement de l'Elysee,Champs-Elysee,"8th arrondissement de l'Elysee , 29th, Champs-Elysee","8th+arrondissement+de+l'Elysee+,+29th,+Champs-Elysee",48.87323320000001,2.2935703999999997
+29,29,8th arrondissement de l'Elysee,Faubourg-du-Roule,"8th arrondissement de l'Elysee, 30th , Faubourg-du-Roule","8th+arrondissement+de+l'Elysee,+30th+,+Faubourg-du-Roule",48.87174470000001,2.3080853
+30,30,8th arrondissement de l'Elysee,La Madeleine,"8th arrondissement de l'Elysee, 31st , La Madeleine","8th+arrondissement+de+l'Elysee,+31st+,+La+Madeleine",48.8702295,2.3162747
+31,31,8th arrondissement de l'Elysee,Europe,"8th arrondissement de l'Elysee, 32nd , Europe","8th+arrondissement+de+l'Elysee,+32nd+,+Europe",48.8702295,2.3162747
+32,32,9th arrondissement de l'Opera,Saint-Georges,"9th arrondissement de l'Opera, 33rd, Saint-Georges","9th+arrondissement+de+l'Opera,+33rd,+Saint-Georges",48.87638079999999,2.3310277999999998
+33,33,9th arrondissement de l'Opera,Chaussee_d'Antin,"9th arrondissement de l'Opera, 34th , Chaussee_d'Antin",Palais+Garnier,48.8719697,2.3294127000000002
+34,34,9th arrondissement de l'Opera,Faubourg-Montmartre,"9th arrondissement de l'Opera, 35th , Faubourg-Montmartre",H�tel+ibis+Paris+Grands+Boulevards+Opera+9�me,48.87441,2.3398855
+35,35,9th arrondissement de l'Opera,Rochechouart,"9th arrondissement de l'Opera, 36th , Rochechouart","9th+arrondissement+de+l'Opera,+36th+,+Rochechouart",48.880122,2.3402031
+36,36,10th arrondissement de l'Entrepot,Saint-Vincent-de-Paul,"10th arrondissement de l'Entrepot , 37th,  Saint-Vincent-de-Paul",Saint-Vincent+de+Paul,48.878677200000006,2.3496580000000002
+37,37,10th arrondissement de l'Entrepot,Porte-Saint-Denis,"10th arrondissement de l'Entrepot , 38th , Porte-Saint-Denis","10th+arrondissement+de+l'Entrepot+,+38th+,+Porte-Saint-Denis",48.8733439,2.3487476000000003
+38,38,10th arrondissement de l'Entrepot,Porte-Saint-Martin,"10th arrondissement de l'Entrepot , 39th , Porte-Saint-Martin",Porte+Saint-Martin,48.86914829999999,2.3534936
+39,39,10th arrondissement de l'Entrepot,Hopital-Saint-Louis,"10th arrondissement de l'Entrepot , 40th , Hopital-Saint-Louis",H�pital+Saint-Louis+AP-HP,48.8734065,2.3675812
+40,40,11th arrondissement de Popincourt,Folie-Mericourt,"11th arrondissement de Popincourt, 41st,  Folie-Mericourt",March�+Popincourt,48.8648577,2.368117
+41,41,11th arrondissement de Popincourt,Saint-Ambroise,"11th arrondissement de Popincourt, 42nd , Saint-Ambroise","11th+arrondissement+de+Popincourt,+42nd+,+Saint-Ambroise",48.861908899999996,2.3684397
+42,42,11th arrondissement de Popincourt,La Roquette,"11th arrondissement de Popincourt, 43rd , La Roquette","11th+arrondissement+de+Popincourt,+43rd+,+La+Roquette",48.8570275,2.3763581
+43,43,11th arrondissement de Popincourt,Sainte-Marguerite,"11th arrondissement de Popincourt, 44th , Sainte-Marguerite",Eglise+Sainte-Marguerite,48.8528749,2.3790435000000003
+44,44,12th arrondissement de Reuilly,Bel-Air,"12th arrondissement de Reuilly, 45th, Bel-Air","12th+arrondissement+de+Reuilly,+45th,+Bel-Air",48.8528735,2.3637226000000005
+45,45,12th arrondissement de Reuilly,Picpus,"12th arrondissement de Reuilly, 46th , Picpus","12th+arrondissement+de+Reuilly,+46th+,+Picpus",48.8343847,2.3872236
+46,46,12th arrondissement de Reuilly,Bercy,"12th arrondissement de Reuilly, 47th , Bercy",H�tel+Le+Quartier+Bercy+-+Square,48.8394867,2.3905227000000004
+47,47,12th arrondissement de Reuilly,Quinze-Vingts,"12th arrondissement de Reuilly, 48th , Quinze-Vingts",Centre+Hospitalier+National+d'Ophtalmologie+des+Quinze-Vingts,48.8512501,2.3701095000000003
+48,48,13th arrondissement des Gobelins,Salpetriere,"13th arrondissement des Gobelins , 49th, Salpetriere","13th+arrondissement+des+Gobelins+,+49th,+Salpetriere",48.8351555,2.351582
+49,49,13th arrondissement des Gobelins,La Gare,"13th arrondissement des Gobelins, 50th , La Gare","Gare, 13e, Paris, Île-de-France, France métropolitaine, 75013, France",48.82789775,2.372877071
+50,50,13th arrondissement des Gobelins,Maison-Blanche,"13th arrondissement des Gobelins, 51st , Maison-Blanche","13th+arrondissement+des+Gobelins,+51st+,+Maison-Blanche",48.8253562,2.3414422000000004
+51,51,13th arrondissement des Gobelins,Croulebarbe,"13th arrondissement des Gobelins, 52nd , Croulebarbe","13th+arrondissement+des+Gobelins,+52nd+,+Croulebarbe",48.8347946,2.348047
+52,52,14th arrondissement de l'Observatoire,Montparnasse,"14th arrondissement de l'Observatoire , 53rd, Montparnasse","14th+arrondissement+de+l'Observatoire+,+53rd,+Montparnasse",48.8355214,2.3343553
+53,53,14th arrondissement de l'Observatoire,Parc Montsouris,"14th arrondissement de l'Observatoire, 54th , Parc Montsouris","54th+,+Parc+Montsouris",48.8223803,2.3378614
+54,54,14th arrondissement de l'Observatoire,Petit-Montrouge,"14th arrondissement de l'Observatoire, 55th , Petit-Montrouge","55th+,+Petit-Montrouge",48.828619700000004,2.3190311
+55,55,14th arrondissement de l'Observatoire,Plaisance," 56th , Plaisance, 14th arrondissement de l'Observatoire","+56th+,+Plaisance",48.83244570000001,2.3072627
+56,56,15th arrondissement de Vaugirard,Saint-Lambert,"15th arrondissement de Vaugirard , 57th, Saint-Lambert","15th+arrondissement+de+Vaugirard+,+57th,+Saint-Lambert",48.8377867,2.2939486000000002
+57,57,15th arrondissement de Vaugirard,Necker,"15th arrondissement de Vaugirard, 58th , Necker","15th+arrondissement+de+Vaugirard,+58th+,+Necker",48.8418092,2.3013287
+58,58,15th arrondissement de Vaugirard,Grenelle,"15th arrondissement de Vaugirard, 59th , Grenelle","15th+arrondissement+de+Vaugirard,+59th+,+Grenelle",48.8505151,2.2839762
+59,59,15th arrondissement de Vaugirard,Javel,"15th arrondissement de Vaugirard, 60th , Javel","60th+,+Javel,+15th+arrondissement+de+Vaugirard,+",48.8385722,2.2725247000000004
+60,60,16th arrondissement de Passy,Auteuil,"16th arrondissement de Passy , 61st, Auteuil","16th+arrondissement+of+Paris,+Paris",48.8570816,2.2278736
+61,61,16th arrondissement de Passy,La Muette,"16th arrondissement de Passy, 62nd , La Muette",La+Rotonde+de+la+Muette,48.858416999999996,2.2708532999999997
+62,62,16th arrondissement de Passy,Porte-Dauphine,"16th arrondissement de Passy, 63rd , Porte-Dauphine","16th+arrondissement+de+Passy,+63rd+,+Porte-Dauphine",48.8716262,2.2537689999999997
+63,63,16th arrondissement de Passy,Chaillot,"16th arrondissement de Passy, 64th , Chaillot",Trocad�ro+Gardens,48.8615963,2.2870936
+64,64,17th arrondissement des Batignolles-Monceau,Les Ternes,"17th arrondissement des Batignolles-Monceau , 65th, Les Ternes","17th+arrondissement+des+Batignolles-Monceau+,+65th,+Les+Ternes",48.887401000000004,2.2875199
+65,65,17th arrondissement des Batignolles-Monceau,Plaine Monceau,"17th arrondissement des Batignolles-Monceau, 66th , Plaine Monceau","66th+,+Plaine+Monceau",48.8843357,2.2952977000000003
+66,66,17th arrondissement des Batignolles-Monceau,Batignolles,"17th arrondissement des Batignolles-Monceau, 67th , Batignolles",Pharmacie+Batignolles+Monceau,48.8848532,2.3135095000000003
+67,67,17th arrondissement des Batignolles-Monceau,Epinettes,"18th arrondissement des Buttes-Montmartre17th arrondissement des Batignolles-Monceau, 68th , Epinettes, ","18th+arrondissement+des+Buttes-Montmartre17th+arrondissement+des+Batignolles-Monceau,+68th+,+Epinettes,+",48.8912408,2.3126872000000005
+68,68,18th arrondissement des Buttes-Montmartre,Grandes-Carrieres,"18th arrondissement des Buttes-Montmartre , 69th, Grandes-Carrieres","+69th,+Grandes-Carrieres",48.8901299,2.3232649
+69,69,18th arrondissement des Buttes-Montmartre,Clignancourt,"18th arrondissement des Buttes-Montmartre, 70th , Clignancourt",H�tel+Montmartre+Clignancourt,48.883937,2.3451726
+70,70,18th arrondissement des Buttes-Montmartre,Goutte-d'Or,"18th arrondissement des Buttes-Montmartre, 71st , Goutte-d'Or","18th+arrondissement+des+Buttes-Montmartre,+71st+,+Goutte-d'Or",48.891133700000005,2.3460763
+71,71,18th arrondissement des Buttes-Montmartre,La Chapelle,"18th arrondissement des Buttes-Montmartre, 72nd , La Chapelle","18th+arrondissement+des+Buttes-Montmartre,+72nd+,+La+Chapelle",48.886191,2.3255798999999997
+72,72,19th arrondissement des Buttes-Chaumont,La Villette,"19th arrondissement des Buttes-Chaumont , 73rd, La Villette","19th+arrondissement+des+Buttes-Chaumont+,+73rd,+La+Villette",48.8818586,2.3721922
+73,73,19th arrondissement des Buttes-Chaumont,Pont-de-Flandres,"19th arrondissement des Buttes-Chaumont, 74th , Pont-de-Flandres","19th+arrondissement+des+Buttes-Chaumont,+74th+,+Pont-de-Flandres",48.8870941,2.3702204
+74,74,19th arrondissement des Buttes-Chaumont,Amerique,"19th arrondissement des Buttes-Chaumont, 75th , Amerique",Aparthotel+Adagio+Paris+Buttes+Chaumont,48.8779557,2.3853066000000003
+75,75,19th arrondissement des Buttes-Chaumont,Combat,"19th arrondissement des Buttes-Chaumont, 76th , Combat","19th+arrondissement+des+Buttes-Chaumont,+76th+,+Combat",48.879205799999994,2.3768467999999996
+76,76,20th arrondissement de Menilmontant,Belleville,"20th arrondissement de Menilmontant, 77th, Belleville","20th+arrondissement+de+Menilmontant,+77th,+Belleville",48.871123100000005,2.3779658
+77,77,20th arrondissement de Menilmontant,Saint-Fargeau,"20th arrondissement de Menilmontant, 78th , Saint-Fargeau","20th+arrondissement+de+Menilmontant,+78th+,+Saint-Fargeau",48.8697905,2.3933967999999997
+78,78,20th arrondissement de Menilmontant,Pere-Lachaise,"20th arrondissement de Menilmontant, 79th , Pere-Lachaise",Tombe+de+Jim+Morrison,48.8592722,2.3916061
+79,79,20th arrondissement de Menilmontant,Charonne,"20th arrondissement de Menilmontant, 80th , Charonne","Charonne,+75020+Paris",48.85570560000001,2.3941297

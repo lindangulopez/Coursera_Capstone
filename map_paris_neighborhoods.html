@@ -1,0 +1,2704 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_a550a9c6554045b28cf28f0ddc256ca1 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a550a9c6554045b28cf28f0ddc256ca1" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_a550a9c6554045b28cf28f0ddc256ca1 = L.map(
+                                  'map_a550a9c6554045b28cf28f0ddc256ca1',
+                                  {center: [48.8566101,2.3514992],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_b007de526c6c4b5db51c5adbcd5f6a4f = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+        
+    
+            var circle_marker_c2e583e5445a4a42a0931079da8e7a53 = L.circleMarker(
+                [48.8596955,2.3406333],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_3c2272c3e54948d5928ad0394273f78e = L.popup({maxWidth: '300'});
+
+            
+                var html_b14c56d7ec1042019d718c7fd6ce46e0 = $('<div id="html_b14c56d7ec1042019d718c7fd6ce46e0" style="width: 100.0%; height: 100.0%;">Saint-Germain-l&#39;Auxerrois, 1st arrondissement du Louvre</div>')[0];
+                popup_3c2272c3e54948d5928ad0394273f78e.setContent(html_b14c56d7ec1042019d718c7fd6ce46e0);
+            
+
+            circle_marker_c2e583e5445a4a42a0931079da8e7a53.bindPopup(popup_3c2272c3e54948d5928ad0394273f78e);
+
+            
+        
+    
+            var circle_marker_bcff2a5b624a47c9b979932007c27be7 = L.circleMarker(
+                [48.8621566,2.344796128],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_fda809a3068447ae9ea093b4a9d5eb22 = L.popup({maxWidth: '300'});
+
+            
+                var html_4acfdc0700214bdf918c0533ecec344e = $('<div id="html_4acfdc0700214bdf918c0533ecec344e" style="width: 100.0%; height: 100.0%;">Les Halles, 1st arrondissement du Louvre</div>')[0];
+                popup_fda809a3068447ae9ea093b4a9d5eb22.setContent(html_4acfdc0700214bdf918c0533ecec344e);
+            
+
+            circle_marker_bcff2a5b624a47c9b979932007c27be7.bindPopup(popup_fda809a3068447ae9ea093b4a9d5eb22);
+
+            
+        
+    
+            var circle_marker_fe96c169372f4a3e88ad2c6b310ed5e8 = L.circleMarker(
+                [48.86460510000001,2.336050684],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_d6359034c6514fdbafae891f502a0854 = L.popup({maxWidth: '300'});
+
+            
+                var html_3da4e1a651934c2394e4f2f525cdacc2 = $('<div id="html_3da4e1a651934c2394e4f2f525cdacc2" style="width: 100.0%; height: 100.0%;">Palais-Royal, 1st arrondissement du Louvre</div>')[0];
+                popup_d6359034c6514fdbafae891f502a0854.setContent(html_3da4e1a651934c2394e4f2f525cdacc2);
+            
+
+            circle_marker_fe96c169372f4a3e88ad2c6b310ed5e8.bindPopup(popup_d6359034c6514fdbafae891f502a0854);
+
+            
+        
+    
+            var circle_marker_280ce36da4054447bbd4a7e28edf1c79 = L.circleMarker(
+                [48.8673216,2.3294834],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_ee17ce5bd09546709f21ba077064b0ba = L.popup({maxWidth: '300'});
+
+            
+                var html_bad954a18bcd4c33887258eb8321848c = $('<div id="html_bad954a18bcd4c33887258eb8321848c" style="width: 100.0%; height: 100.0%;">Place-Vendome, 1st arrondissement du Louvre</div>')[0];
+                popup_ee17ce5bd09546709f21ba077064b0ba.setContent(html_bad954a18bcd4c33887258eb8321848c);
+            
+
+            circle_marker_280ce36da4054447bbd4a7e28edf1c79.bindPopup(popup_ee17ce5bd09546709f21ba077064b0ba);
+
+            
+        
+    
+            var circle_marker_f4468579c6a2496582a19094919b0369 = L.circleMarker(
+                [48.86913515,2.33290877],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_8e7e34c396d74810be559f296a3d41cc = L.popup({maxWidth: '300'});
+
+            
+                var html_a833d0c3723c45baa2669bc80c80396b = $('<div id="html_a833d0c3723c45baa2669bc80c80396b" style="width: 100.0%; height: 100.0%;">Gaillon, 2nd arrondissement de la Bourse</div>')[0];
+                popup_8e7e34c396d74810be559f296a3d41cc.setContent(html_a833d0c3723c45baa2669bc80c80396b);
+            
+
+            circle_marker_f4468579c6a2496582a19094919b0369.bindPopup(popup_8e7e34c396d74810be559f296a3d41cc);
+
+            
+        
+    
+            var circle_marker_dc236076d7824c75b9613dd5fc5ee292 = L.circleMarker(
+                [48.86885895,2.339362558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_c93630357ac9494abca628bc145eaf8c = L.popup({maxWidth: '300'});
+
+            
+                var html_fbc8e4cfa8c54a9ca854da06679958d0 = $('<div id="html_fbc8e4cfa8c54a9ca854da06679958d0" style="width: 100.0%; height: 100.0%;">Vivienne, 2nd arrondissement de la Bourse</div>')[0];
+                popup_c93630357ac9494abca628bc145eaf8c.setContent(html_fbc8e4cfa8c54a9ca854da06679958d0);
+            
+
+            circle_marker_dc236076d7824c75b9613dd5fc5ee292.bindPopup(popup_c93630357ac9494abca628bc145eaf8c);
+
+            
+        
+    
+            var circle_marker_acd21897730b4746ab99c5e3b8a830dd = L.circleMarker(
+                [48.85482920000001,2.2939614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_b586747ef7794fb6abe50164356e62d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_f5e91b151ca24aafa6c5e9da93f68f6e = $('<div id="html_f5e91b151ca24aafa6c5e9da93f68f6e" style="width: 100.0%; height: 100.0%;">Mail, 2nd arrondissement de la Bourse</div>')[0];
+                popup_b586747ef7794fb6abe50164356e62d5.setContent(html_f5e91b151ca24aafa6c5e9da93f68f6e);
+            
+
+            circle_marker_acd21897730b4746ab99c5e3b8a830dd.bindPopup(popup_b586747ef7794fb6abe50164356e62d5);
+
+            
+        
+    
+            var circle_marker_ba1bd16728584259b2bbae8dc773a62c = L.circleMarker(
+                [48.8670566,2.350124944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_b8dcf2b20b2e4108b63258bf58068602 = L.popup({maxWidth: '300'});
+
+            
+                var html_12cb8d7bfbf24620846dd3eaf3df76aa = $('<div id="html_12cb8d7bfbf24620846dd3eaf3df76aa" style="width: 100.0%; height: 100.0%;">Bonne-Nouvelle, 2nd arrondissement de la Bourse</div>')[0];
+                popup_b8dcf2b20b2e4108b63258bf58068602.setContent(html_12cb8d7bfbf24620846dd3eaf3df76aa);
+            
+
+            circle_marker_ba1bd16728584259b2bbae8dc773a62c.bindPopup(popup_b8dcf2b20b2e4108b63258bf58068602);
+
+            
+        
+    
+            var circle_marker_acb9bf678b144571891f59d1c57e47ae = L.circleMarker(
+                [48.86635689999999,2.3489472],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_5f096fc0bcdc4348a09e1dc5532076e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2feb9dd1777a4cb6ab633c9bf8b7e718 = $('<div id="html_2feb9dd1777a4cb6ab633c9bf8b7e718" style="width: 100.0%; height: 100.0%;">Arts-et-Metiers, 3rd arrondissement du Temple</div>')[0];
+                popup_5f096fc0bcdc4348a09e1dc5532076e9.setContent(html_2feb9dd1777a4cb6ab633c9bf8b7e718);
+            
+
+            circle_marker_acb9bf678b144571891f59d1c57e47ae.bindPopup(popup_5f096fc0bcdc4348a09e1dc5532076e9);
+
+            
+        
+    
+            var circle_marker_119b5126927e4ad691df0eda020563a4 = L.circleMarker(
+                [48.8643317,2.362608441],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_87eda756ecac4aeaa3102f6a349ff765 = L.popup({maxWidth: '300'});
+
+            
+                var html_3de6f31ac0c044bbb53e967abeb7927e = $('<div id="html_3de6f31ac0c044bbb53e967abeb7927e" style="width: 100.0%; height: 100.0%;">Enfants-Rouges, 3rd arrondissement du Temple</div>')[0];
+                popup_87eda756ecac4aeaa3102f6a349ff765.setContent(html_3de6f31ac0c044bbb53e967abeb7927e);
+            
+
+            circle_marker_119b5126927e4ad691df0eda020563a4.bindPopup(popup_87eda756ecac4aeaa3102f6a349ff765);
+
+            
+        
+    
+            var circle_marker_6c4af6928e004d4faf711197f2717cb2 = L.circleMarker(
+                [48.85957135,2.362572744],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_7776fb3e69d44ae7840c9fda6eddd636 = L.popup({maxWidth: '300'});
+
+            
+                var html_061523cd7e5c47a9860ce57121d2a01a = $('<div id="html_061523cd7e5c47a9860ce57121d2a01a" style="width: 100.0%; height: 100.0%;">Archives, 3rd arrondissement du Temple</div>')[0];
+                popup_7776fb3e69d44ae7840c9fda6eddd636.setContent(html_061523cd7e5c47a9860ce57121d2a01a);
+            
+
+            circle_marker_6c4af6928e004d4faf711197f2717cb2.bindPopup(popup_7776fb3e69d44ae7840c9fda6eddd636);
+
+            
+        
+    
+            var circle_marker_383c3733c5a4428bb1fb2399e3aa90ca = L.circleMarker(
+                [48.86269975,2.3541317040000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_2a8d13c528de41118ed2971ee823d1cc = L.popup({maxWidth: '300'});
+
+            
+                var html_32663fe72be444328c45eea5ab7cb9e4 = $('<div id="html_32663fe72be444328c45eea5ab7cb9e4" style="width: 100.0%; height: 100.0%;">Sainte-Avoye, 3rd arrondissement du Temple</div>')[0];
+                popup_2a8d13c528de41118ed2971ee823d1cc.setContent(html_32663fe72be444328c45eea5ab7cb9e4);
+            
+
+            circle_marker_383c3733c5a4428bb1fb2399e3aa90ca.bindPopup(popup_2a8d13c528de41118ed2971ee823d1cc);
+
+            
+        
+    
+            var circle_marker_91f4b8d7d1ac47729a1ab8b0d94598cf = L.circleMarker(
+                [48.858266,2.3473697],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_b39b45e6d30f40dfb7a441ff315fcc3c = L.popup({maxWidth: '300'});
+
+            
+                var html_133850a6d11a4f2ebc4b3c1426680955 = $('<div id="html_133850a6d11a4f2ebc4b3c1426680955" style="width: 100.0%; height: 100.0%;">Saint-Merry, 4th arrondissement de l Hotel de Ville</div>')[0];
+                popup_b39b45e6d30f40dfb7a441ff315fcc3c.setContent(html_133850a6d11a4f2ebc4b3c1426680955);
+            
+
+            circle_marker_91f4b8d7d1ac47729a1ab8b0d94598cf.bindPopup(popup_b39b45e6d30f40dfb7a441ff315fcc3c);
+
+            
+        
+    
+            var circle_marker_71a776cc90d24a4d9948da35ca3e315a = L.circleMarker(
+                [48.8558122,2.349589],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_293708ba65ff43fd895535f87fb817eb = L.popup({maxWidth: '300'});
+
+            
+                var html_d1016e4eb51a49678e30c797428caeb2 = $('<div id="html_d1016e4eb51a49678e30c797428caeb2" style="width: 100.0%; height: 100.0%;">Saint-Gervais, 4th arrondissement de l Hotel de Ville</div>')[0];
+                popup_293708ba65ff43fd895535f87fb817eb.setContent(html_d1016e4eb51a49678e30c797428caeb2);
+            
+
+            circle_marker_71a776cc90d24a4d9948da35ca3e315a.bindPopup(popup_293708ba65ff43fd895535f87fb817eb);
+
+            
+        
+    
+            var circle_marker_68da7fbf0f544c8b91f0cf6dc674e04b = L.circleMarker(
+                [48.8503342,2.3553269],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_bc2bdd9c17d74f80be72b740038e24c2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b84fae03c2ff47b1bfd42b94db747d3c = $('<div id="html_b84fae03c2ff47b1bfd42b94db747d3c" style="width: 100.0%; height: 100.0%;">Arsenal, 4th arrondissement de l Hotel de Ville</div>')[0];
+                popup_bc2bdd9c17d74f80be72b740038e24c2.setContent(html_b84fae03c2ff47b1bfd42b94db747d3c);
+            
+
+            circle_marker_68da7fbf0f544c8b91f0cf6dc674e04b.bindPopup(popup_bc2bdd9c17d74f80be72b740038e24c2);
+
+            
+        
+    
+            var circle_marker_ee2ec049736a4e298ea6716aef9c5ba7 = L.circleMarker(
+                [48.85407960000001,2.3393502999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_6fed888ca8344581930d65064d5f3c0e = L.popup({maxWidth: '300'});
+
+            
+                var html_fe1e15f7d9bb4924bf0933b80795ab57 = $('<div id="html_fe1e15f7d9bb4924bf0933b80795ab57" style="width: 100.0%; height: 100.0%;">Notre-Dame, 4th arrondissement de l Hotel de Ville</div>')[0];
+                popup_6fed888ca8344581930d65064d5f3c0e.setContent(html_fe1e15f7d9bb4924bf0933b80795ab57);
+            
+
+            circle_marker_ee2ec049736a4e298ea6716aef9c5ba7.bindPopup(popup_6fed888ca8344581930d65064d5f3c0e);
+
+            
+        
+    
+            var circle_marker_fc7da1672c6c4d3c9628d295050d1aef = L.circleMarker(
+                [48.84768820000001,2.3460252],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_435a30e4df004c09ab43ab88e9ea13f8 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c6f706b43dd43118469fdc3ccdb7987 = $('<div id="html_4c6f706b43dd43118469fdc3ccdb7987" style="width: 100.0%; height: 100.0%;">Quartier Saint-Victor, 5th arrondissement du Pantheon</div>')[0];
+                popup_435a30e4df004c09ab43ab88e9ea13f8.setContent(html_4c6f706b43dd43118469fdc3ccdb7987);
+            
+
+            circle_marker_fc7da1672c6c4d3c9628d295050d1aef.bindPopup(popup_435a30e4df004c09ab43ab88e9ea13f8);
+
+            
+        
+    
+            var circle_marker_6684ed11b63347c68c69085d82d70bf7 = L.circleMarker(
+                [48.8438358,2.3534336],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_009eb4c1e1934f25bbc33e5349bf44ee = L.popup({maxWidth: '300'});
+
+            
+                var html_a27e33f077e54ae8a160b2e9187f9646 = $('<div id="html_a27e33f077e54ae8a160b2e9187f9646" style="width: 100.0%; height: 100.0%;">Jardin-des-Plantes, 5th arrondissement du Pantheon</div>')[0];
+                popup_009eb4c1e1934f25bbc33e5349bf44ee.setContent(html_a27e33f077e54ae8a160b2e9187f9646);
+            
+
+            circle_marker_6684ed11b63347c68c69085d82d70bf7.bindPopup(popup_009eb4c1e1934f25bbc33e5349bf44ee);
+
+            
+        
+    
+            var circle_marker_ed71f31ace22430d84951cdc73c9a87c = L.circleMarker(
+                [48.84221255,2.343890377],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_0aab9af5694448d3bfbdf060f2bfd90a = L.popup({maxWidth: '300'});
+
+            
+                var html_003265586c734c5e83fab1f4866a79f5 = $('<div id="html_003265586c734c5e83fab1f4866a79f5" style="width: 100.0%; height: 100.0%;">Val-de-Grâce, 5th arrondissement du Pantheon</div>')[0];
+                popup_0aab9af5694448d3bfbdf060f2bfd90a.setContent(html_003265586c734c5e83fab1f4866a79f5);
+            
+
+            circle_marker_ed71f31ace22430d84951cdc73c9a87c.bindPopup(popup_0aab9af5694448d3bfbdf060f2bfd90a);
+
+            
+        
+    
+            var circle_marker_4784e7ebdd7841deb99cff118b9a21c0 = L.circleMarker(
+                [48.84912335,2.34532515],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_1af73ec10e0449039220f0445a086a34 = L.popup({maxWidth: '300'});
+
+            
+                var html_1c2292457fb84d65a271cad63515dba9 = $('<div id="html_1c2292457fb84d65a271cad63515dba9" style="width: 100.0%; height: 100.0%;">Sorbonne, 5th arrondissement du Pantheon</div>')[0];
+                popup_1af73ec10e0449039220f0445a086a34.setContent(html_1c2292457fb84d65a271cad63515dba9);
+            
+
+            circle_marker_4784e7ebdd7841deb99cff118b9a21c0.bindPopup(popup_1af73ec10e0449039220f0445a086a34);
+
+            
+        
+    
+            var circle_marker_dec4d7301e5e47489d17fc4bf70178c0 = L.circleMarker(
+                [48.85458085,2.340154398],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_c673bed1398344ed8f0ef5b2856e2d6e = L.popup({maxWidth: '300'});
+
+            
+                var html_310ed03bbb17436abf4c06af1525532c = $('<div id="html_310ed03bbb17436abf4c06af1525532c" style="width: 100.0%; height: 100.0%;">Monnaie, 6th arrondissement du Luxembourg</div>')[0];
+                popup_c673bed1398344ed8f0ef5b2856e2d6e.setContent(html_310ed03bbb17436abf4c06af1525532c);
+            
+
+            circle_marker_dec4d7301e5e47489d17fc4bf70178c0.bindPopup(popup_c673bed1398344ed8f0ef5b2856e2d6e);
+
+            
+        
+    
+            var circle_marker_e33d355df3af4e01a563548047c598d5 = L.circleMarker(
+                [48.8438344,2.3403014],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_18e40b08d77a4a92b1ec1c4a5be9e6b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_5c4fb6472dbf47389b475ab56dc39c65 = $('<div id="html_5c4fb6472dbf47389b475ab56dc39c65" style="width: 100.0%; height: 100.0%;">Odeon, 6th arrondissement du Luxembourg</div>')[0];
+                popup_18e40b08d77a4a92b1ec1c4a5be9e6b0.setContent(html_5c4fb6472dbf47389b475ab56dc39c65);
+            
+
+            circle_marker_e33d355df3af4e01a563548047c598d5.bindPopup(popup_18e40b08d77a4a92b1ec1c4a5be9e6b0);
+
+            
+        
+    
+            var circle_marker_5cd0f6a486b04d32a11da9984a5d2655 = L.circleMarker(
+                [48.850582,2.3302443],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_6c0a4719ff174183a542592a4cc21615 = L.popup({maxWidth: '300'});
+
+            
+                var html_ead02f019a6e4e748fbc34ba63459dd1 = $('<div id="html_ead02f019a6e4e748fbc34ba63459dd1" style="width: 100.0%; height: 100.0%;">Notre-Dame-des-Champs, 6th arrondissement du Luxembourg</div>')[0];
+                popup_6c0a4719ff174183a542592a4cc21615.setContent(html_ead02f019a6e4e748fbc34ba63459dd1);
+            
+
+            circle_marker_5cd0f6a486b04d32a11da9984a5d2655.bindPopup(popup_6c0a4719ff174183a542592a4cc21615);
+
+            
+        
+    
+            var circle_marker_3138f7260b624120baa7a8775859e856 = L.circleMarker(
+                [48.85547485,2.333894855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_70ccfdbbd28242a6a9127f9dc65ddfb5 = L.popup({maxWidth: '300'});
+
+            
+                var html_dad9881eab8346a2a79b8460cc58e86e = $('<div id="html_dad9881eab8346a2a79b8460cc58e86e" style="width: 100.0%; height: 100.0%;">Saint-Germain-des-Pres, 6th arrondissement du Luxembourg</div>')[0];
+                popup_70ccfdbbd28242a6a9127f9dc65ddfb5.setContent(html_dad9881eab8346a2a79b8460cc58e86e);
+            
+
+            circle_marker_3138f7260b624120baa7a8775859e856.bindPopup(popup_70ccfdbbd28242a6a9127f9dc65ddfb5);
+
+            
+        
+    
+            var circle_marker_255ef8878d14447f846c2296a0eb3b2c = L.circleMarker(
+                [48.85482920000001,2.2939614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_9d2b8af9c651484ca3dcdc9fb2b90759 = L.popup({maxWidth: '300'});
+
+            
+                var html_292587f337304fd2a6358e67bd315e8e = $('<div id="html_292587f337304fd2a6358e67bd315e8e" style="width: 100.0%; height: 100.0%;">Saint-Thomas-d&#39;Aquin, 7th arrondissement du Palais-Bourbon</div>')[0];
+                popup_9d2b8af9c651484ca3dcdc9fb2b90759.setContent(html_292587f337304fd2a6358e67bd315e8e);
+            
+
+            circle_marker_255ef8878d14447f846c2296a0eb3b2c.bindPopup(popup_9d2b8af9c651484ca3dcdc9fb2b90759);
+
+            
+        
+    
+            var circle_marker_6dd05ebe1307424a85ee92fbc3804dbe = L.circleMarker(
+                [48.8592217,2.3135748],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_9cea447b89cd43b09c4d2a95aebe763e = L.popup({maxWidth: '300'});
+
+            
+                var html_069a0788040644bfb649bf3d8cb42b55 = $('<div id="html_069a0788040644bfb649bf3d8cb42b55" style="width: 100.0%; height: 100.0%;">Les Invalides, 7th arrondissement du Palais-Bourbon</div>')[0];
+                popup_9cea447b89cd43b09c4d2a95aebe763e.setContent(html_069a0788040644bfb649bf3d8cb42b55);
+            
+
+            circle_marker_6dd05ebe1307424a85ee92fbc3804dbe.bindPopup(popup_9cea447b89cd43b09c4d2a95aebe763e);
+
+            
+        
+    
+            var circle_marker_719b4656072e4d429c4acd235da9654f = L.circleMarker(
+                [48.8525155,2.3013007],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_91e0a57eea0844cc911f60f00d051994 = L.popup({maxWidth: '300'});
+
+            
+                var html_8d4b0b7429e14d8982588c3824b715eb = $('<div id="html_8d4b0b7429e14d8982588c3824b715eb" style="width: 100.0%; height: 100.0%;">Ecole-Militaire, 7th arrondissement du Palais-Bourbon</div>')[0];
+                popup_91e0a57eea0844cc911f60f00d051994.setContent(html_8d4b0b7429e14d8982588c3824b715eb);
+            
+
+            circle_marker_719b4656072e4d429c4acd235da9654f.bindPopup(popup_91e0a57eea0844cc911f60f00d051994);
+
+            
+        
+    
+            var circle_marker_78b33c177bbe42b5850d46040ebeb168 = L.circleMarker(
+                [48.85482920000001,2.2939614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_a3816b2db8794712805ce80025067881 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e3e3f2f6c9449a595964f5a60a37f86 = $('<div id="html_2e3e3f2f6c9449a595964f5a60a37f86" style="width: 100.0%; height: 100.0%;">Gros-Caillou, 7th arrondissement du Palais-Bourbon</div>')[0];
+                popup_a3816b2db8794712805ce80025067881.setContent(html_2e3e3f2f6c9449a595964f5a60a37f86);
+            
+
+            circle_marker_78b33c177bbe42b5850d46040ebeb168.bindPopup(popup_a3816b2db8794712805ce80025067881);
+
+            
+        
+    
+            var circle_marker_2850765309ec447cadbc90e486644865 = L.circleMarker(
+                [48.87323320000001,2.2935704],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_1affe28c6e62435ebd20b848a8255cb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_b2ab8b9b8fc94cc8af90eb7396f216b5 = $('<div id="html_b2ab8b9b8fc94cc8af90eb7396f216b5" style="width: 100.0%; height: 100.0%;">Champs-Elysee, 8th arrondissement de l&#39;Elysee</div>')[0];
+                popup_1affe28c6e62435ebd20b848a8255cb8.setContent(html_b2ab8b9b8fc94cc8af90eb7396f216b5);
+            
+
+            circle_marker_2850765309ec447cadbc90e486644865.bindPopup(popup_1affe28c6e62435ebd20b848a8255cb8);
+
+            
+        
+    
+            var circle_marker_f7c2f507ceb84a60928598eed848bb58 = L.circleMarker(
+                [48.87174470000001,2.3080853],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_d83f7dae30264b66b1c9d30b384a2db8 = L.popup({maxWidth: '300'});
+
+            
+                var html_1f0b4cf3da3647729b609fd948b06dad = $('<div id="html_1f0b4cf3da3647729b609fd948b06dad" style="width: 100.0%; height: 100.0%;">Faubourg-du-Roule, 8th arrondissement de l&#39;Elysee</div>')[0];
+                popup_d83f7dae30264b66b1c9d30b384a2db8.setContent(html_1f0b4cf3da3647729b609fd948b06dad);
+            
+
+            circle_marker_f7c2f507ceb84a60928598eed848bb58.bindPopup(popup_d83f7dae30264b66b1c9d30b384a2db8);
+
+            
+        
+    
+            var circle_marker_a8f45a51b1304650819cdc6168116388 = L.circleMarker(
+                [48.8702295,2.3162747],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_0b319a047a80496097a90c752370ab21 = L.popup({maxWidth: '300'});
+
+            
+                var html_e68f69f325ee454bac870a8a78c880fa = $('<div id="html_e68f69f325ee454bac870a8a78c880fa" style="width: 100.0%; height: 100.0%;">La Madeleine, 8th arrondissement de l&#39;Elysee</div>')[0];
+                popup_0b319a047a80496097a90c752370ab21.setContent(html_e68f69f325ee454bac870a8a78c880fa);
+            
+
+            circle_marker_a8f45a51b1304650819cdc6168116388.bindPopup(popup_0b319a047a80496097a90c752370ab21);
+
+            
+        
+    
+            var circle_marker_51e432173e834adf8316662c35c8653c = L.circleMarker(
+                [48.8702295,2.3162747],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_c3e4487882564a52a7a4801828b140a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f079510566541b3aee6ef5c2a1a268c = $('<div id="html_6f079510566541b3aee6ef5c2a1a268c" style="width: 100.0%; height: 100.0%;">Europe, 8th arrondissement de l&#39;Elysee</div>')[0];
+                popup_c3e4487882564a52a7a4801828b140a2.setContent(html_6f079510566541b3aee6ef5c2a1a268c);
+            
+
+            circle_marker_51e432173e834adf8316662c35c8653c.bindPopup(popup_c3e4487882564a52a7a4801828b140a2);
+
+            
+        
+    
+            var circle_marker_3a428a3f9d044d689f355c158991e611 = L.circleMarker(
+                [48.87638079999999,2.3310278],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_793978a3ec9a4a93857b142c031d4412 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea25bbd6174c4edbb174a27d4450697e = $('<div id="html_ea25bbd6174c4edbb174a27d4450697e" style="width: 100.0%; height: 100.0%;">Saint-Georges, 9th arrondissement de l&#39;Opera</div>')[0];
+                popup_793978a3ec9a4a93857b142c031d4412.setContent(html_ea25bbd6174c4edbb174a27d4450697e);
+            
+
+            circle_marker_3a428a3f9d044d689f355c158991e611.bindPopup(popup_793978a3ec9a4a93857b142c031d4412);
+
+            
+        
+    
+            var circle_marker_771f557d7bf64ea5b7e247905d6da164 = L.circleMarker(
+                [48.8719697,2.3294127],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_8497f5f2bc3a4feda4a89cd7eeada08d = L.popup({maxWidth: '300'});
+
+            
+                var html_7412929c40f549709f2b75a75f9af0da = $('<div id="html_7412929c40f549709f2b75a75f9af0da" style="width: 100.0%; height: 100.0%;">Chaussee_d&#39;Antin, 9th arrondissement de l&#39;Opera</div>')[0];
+                popup_8497f5f2bc3a4feda4a89cd7eeada08d.setContent(html_7412929c40f549709f2b75a75f9af0da);
+            
+
+            circle_marker_771f557d7bf64ea5b7e247905d6da164.bindPopup(popup_8497f5f2bc3a4feda4a89cd7eeada08d);
+
+            
+        
+    
+            var circle_marker_2754fc4ed9824719bc32a2811e454ac1 = L.circleMarker(
+                [48.87441,2.3398855],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_59fcf01b43db43f981dcf2bb34e5b608 = L.popup({maxWidth: '300'});
+
+            
+                var html_598e70f70f7d4f4e9826c19efed090d8 = $('<div id="html_598e70f70f7d4f4e9826c19efed090d8" style="width: 100.0%; height: 100.0%;">Faubourg-Montmartre, 9th arrondissement de l&#39;Opera</div>')[0];
+                popup_59fcf01b43db43f981dcf2bb34e5b608.setContent(html_598e70f70f7d4f4e9826c19efed090d8);
+            
+
+            circle_marker_2754fc4ed9824719bc32a2811e454ac1.bindPopup(popup_59fcf01b43db43f981dcf2bb34e5b608);
+
+            
+        
+    
+            var circle_marker_3c359eff45ad4da0b23590eb4a2afeca = L.circleMarker(
+                [48.880122,2.3402031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_fabadeb649e44fc7bd45a2e5e21471e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_2119ea1c3dde4587ab5fe6af95bd87f7 = $('<div id="html_2119ea1c3dde4587ab5fe6af95bd87f7" style="width: 100.0%; height: 100.0%;">Rochechouart, 9th arrondissement de l&#39;Opera</div>')[0];
+                popup_fabadeb649e44fc7bd45a2e5e21471e9.setContent(html_2119ea1c3dde4587ab5fe6af95bd87f7);
+            
+
+            circle_marker_3c359eff45ad4da0b23590eb4a2afeca.bindPopup(popup_fabadeb649e44fc7bd45a2e5e21471e9);
+
+            
+        
+    
+            var circle_marker_f42ffd4cfa8a46dfab98d414bc0a1bfb = L.circleMarker(
+                [48.87867720000001,2.349658],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_27169299e1d942578d85669a8ceca467 = L.popup({maxWidth: '300'});
+
+            
+                var html_686160906a5642eb991dc86f4d557d07 = $('<div id="html_686160906a5642eb991dc86f4d557d07" style="width: 100.0%; height: 100.0%;">Saint-Vincent-de-Paul, 10th arrondissement de l&#39;Entrepot</div>')[0];
+                popup_27169299e1d942578d85669a8ceca467.setContent(html_686160906a5642eb991dc86f4d557d07);
+            
+
+            circle_marker_f42ffd4cfa8a46dfab98d414bc0a1bfb.bindPopup(popup_27169299e1d942578d85669a8ceca467);
+
+            
+        
+    
+            var circle_marker_943fe199c08940c29d1d62d766e4f315 = L.circleMarker(
+                [48.8733439,2.3487476000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_7329a99b503e442a8beebabbb48c9595 = L.popup({maxWidth: '300'});
+
+            
+                var html_04c3acccd2e54202bbb82f42180c9d46 = $('<div id="html_04c3acccd2e54202bbb82f42180c9d46" style="width: 100.0%; height: 100.0%;">Porte-Saint-Denis, 10th arrondissement de l&#39;Entrepot</div>')[0];
+                popup_7329a99b503e442a8beebabbb48c9595.setContent(html_04c3acccd2e54202bbb82f42180c9d46);
+            
+
+            circle_marker_943fe199c08940c29d1d62d766e4f315.bindPopup(popup_7329a99b503e442a8beebabbb48c9595);
+
+            
+        
+    
+            var circle_marker_50fce121c7ee46009a02529fbf956bd6 = L.circleMarker(
+                [48.86914829999999,2.3534936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_333ba3b986744b75a2554c2936c4365f = L.popup({maxWidth: '300'});
+
+            
+                var html_5d4255c49ebb495eba9d4e46223c4140 = $('<div id="html_5d4255c49ebb495eba9d4e46223c4140" style="width: 100.0%; height: 100.0%;">Porte-Saint-Martin, 10th arrondissement de l&#39;Entrepot</div>')[0];
+                popup_333ba3b986744b75a2554c2936c4365f.setContent(html_5d4255c49ebb495eba9d4e46223c4140);
+            
+
+            circle_marker_50fce121c7ee46009a02529fbf956bd6.bindPopup(popup_333ba3b986744b75a2554c2936c4365f);
+
+            
+        
+    
+            var circle_marker_782ba5a03d2e472b97c65e13cec855ce = L.circleMarker(
+                [48.8734065,2.3675812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_48f164d287484138b555ebcac0021cc1 = L.popup({maxWidth: '300'});
+
+            
+                var html_5e31abe8bf9a4d01b819108d772696f1 = $('<div id="html_5e31abe8bf9a4d01b819108d772696f1" style="width: 100.0%; height: 100.0%;">Hopital-Saint-Louis, 10th arrondissement de l&#39;Entrepot</div>')[0];
+                popup_48f164d287484138b555ebcac0021cc1.setContent(html_5e31abe8bf9a4d01b819108d772696f1);
+            
+
+            circle_marker_782ba5a03d2e472b97c65e13cec855ce.bindPopup(popup_48f164d287484138b555ebcac0021cc1);
+
+            
+        
+    
+            var circle_marker_45dfe84768f042b8afd9b64a1b0401f9 = L.circleMarker(
+                [48.8648577,2.368117],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_f5c61f7de74e42bf99e2b2515d1385dd = L.popup({maxWidth: '300'});
+
+            
+                var html_29b20f645ce44a869e59c4cff57c2755 = $('<div id="html_29b20f645ce44a869e59c4cff57c2755" style="width: 100.0%; height: 100.0%;">Folie-Mericourt, 11th arrondissement de Popincourt</div>')[0];
+                popup_f5c61f7de74e42bf99e2b2515d1385dd.setContent(html_29b20f645ce44a869e59c4cff57c2755);
+            
+
+            circle_marker_45dfe84768f042b8afd9b64a1b0401f9.bindPopup(popup_f5c61f7de74e42bf99e2b2515d1385dd);
+
+            
+        
+    
+            var circle_marker_a9bf8943ba744c01a95483c8184ada5c = L.circleMarker(
+                [48.8619089,2.3684397],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_8077c6f81f0c4e81912ab4f5ef2c7aa0 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ff8e26e482b4ccb8946e7063567f1f2 = $('<div id="html_8ff8e26e482b4ccb8946e7063567f1f2" style="width: 100.0%; height: 100.0%;">Saint-Ambroise, 11th arrondissement de Popincourt</div>')[0];
+                popup_8077c6f81f0c4e81912ab4f5ef2c7aa0.setContent(html_8ff8e26e482b4ccb8946e7063567f1f2);
+            
+
+            circle_marker_a9bf8943ba744c01a95483c8184ada5c.bindPopup(popup_8077c6f81f0c4e81912ab4f5ef2c7aa0);
+
+            
+        
+    
+            var circle_marker_4b05b02763734c50a212db7941b0c4c1 = L.circleMarker(
+                [48.8570275,2.3763581],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_4dff58bafe704660bf4532e8ebd96c7b = L.popup({maxWidth: '300'});
+
+            
+                var html_d8371552d14a40059f977ebf8afdda6a = $('<div id="html_d8371552d14a40059f977ebf8afdda6a" style="width: 100.0%; height: 100.0%;">La Roquette, 11th arrondissement de Popincourt</div>')[0];
+                popup_4dff58bafe704660bf4532e8ebd96c7b.setContent(html_d8371552d14a40059f977ebf8afdda6a);
+            
+
+            circle_marker_4b05b02763734c50a212db7941b0c4c1.bindPopup(popup_4dff58bafe704660bf4532e8ebd96c7b);
+
+            
+        
+    
+            var circle_marker_07790370e8ba41e19e9503a44fad0073 = L.circleMarker(
+                [48.8528749,2.3790435000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_4befc5c816ec495e9acdf690ee011a45 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1feab02dd1d4a17a930632dfa01be0f = $('<div id="html_d1feab02dd1d4a17a930632dfa01be0f" style="width: 100.0%; height: 100.0%;">Sainte-Marguerite, 11th arrondissement de Popincourt</div>')[0];
+                popup_4befc5c816ec495e9acdf690ee011a45.setContent(html_d1feab02dd1d4a17a930632dfa01be0f);
+            
+
+            circle_marker_07790370e8ba41e19e9503a44fad0073.bindPopup(popup_4befc5c816ec495e9acdf690ee011a45);
+
+            
+        
+    
+            var circle_marker_732ad1054d0f4bc7b3568192315c85b9 = L.circleMarker(
+                [48.8528735,2.3637226000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_b75c720d4f15401c8b597e581ba34ea6 = L.popup({maxWidth: '300'});
+
+            
+                var html_479fb9e18f41469fb319d04e8607f9d2 = $('<div id="html_479fb9e18f41469fb319d04e8607f9d2" style="width: 100.0%; height: 100.0%;">Bel-Air, 12th arrondissement de Reuilly</div>')[0];
+                popup_b75c720d4f15401c8b597e581ba34ea6.setContent(html_479fb9e18f41469fb319d04e8607f9d2);
+            
+
+            circle_marker_732ad1054d0f4bc7b3568192315c85b9.bindPopup(popup_b75c720d4f15401c8b597e581ba34ea6);
+
+            
+        
+    
+            var circle_marker_ad5c6aa58ee14f7b808f512bd0997e4d = L.circleMarker(
+                [48.8343847,2.3872236],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_5992a11f4eb64f21a0657e6c91a46cb4 = L.popup({maxWidth: '300'});
+
+            
+                var html_aa16a9939d754fd3a1dc63ab34caed37 = $('<div id="html_aa16a9939d754fd3a1dc63ab34caed37" style="width: 100.0%; height: 100.0%;">Picpus, 12th arrondissement de Reuilly</div>')[0];
+                popup_5992a11f4eb64f21a0657e6c91a46cb4.setContent(html_aa16a9939d754fd3a1dc63ab34caed37);
+            
+
+            circle_marker_ad5c6aa58ee14f7b808f512bd0997e4d.bindPopup(popup_5992a11f4eb64f21a0657e6c91a46cb4);
+
+            
+        
+    
+            var circle_marker_d909b60b8aae49e7830bb15c5d92643e = L.circleMarker(
+                [48.8394867,2.3905227000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_550d0c52e9b24494b189b7f1127dff5e = L.popup({maxWidth: '300'});
+
+            
+                var html_4a0e06dda9df49789066c24a38191064 = $('<div id="html_4a0e06dda9df49789066c24a38191064" style="width: 100.0%; height: 100.0%;">Bercy, 12th arrondissement de Reuilly</div>')[0];
+                popup_550d0c52e9b24494b189b7f1127dff5e.setContent(html_4a0e06dda9df49789066c24a38191064);
+            
+
+            circle_marker_d909b60b8aae49e7830bb15c5d92643e.bindPopup(popup_550d0c52e9b24494b189b7f1127dff5e);
+
+            
+        
+    
+            var circle_marker_7b193b77e379479aa02c2284a9dfb396 = L.circleMarker(
+                [48.8512501,2.3701095000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_9931a3005602456180d602a9de2a2a75 = L.popup({maxWidth: '300'});
+
+            
+                var html_697cb58f85864979a3fe25709fc1bc13 = $('<div id="html_697cb58f85864979a3fe25709fc1bc13" style="width: 100.0%; height: 100.0%;">Quinze-Vingts, 12th arrondissement de Reuilly</div>')[0];
+                popup_9931a3005602456180d602a9de2a2a75.setContent(html_697cb58f85864979a3fe25709fc1bc13);
+            
+
+            circle_marker_7b193b77e379479aa02c2284a9dfb396.bindPopup(popup_9931a3005602456180d602a9de2a2a75);
+
+            
+        
+    
+            var circle_marker_e34f344dd29d49f5ad4181d0a3449c94 = L.circleMarker(
+                [48.8351555,2.351582],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_17ccea23bc114d2f824c9c9d443965c8 = L.popup({maxWidth: '300'});
+
+            
+                var html_109c4d3fa0b84ecda7309e879a75bb79 = $('<div id="html_109c4d3fa0b84ecda7309e879a75bb79" style="width: 100.0%; height: 100.0%;">Salpetriere, 13th arrondissement des Gobelins</div>')[0];
+                popup_17ccea23bc114d2f824c9c9d443965c8.setContent(html_109c4d3fa0b84ecda7309e879a75bb79);
+            
+
+            circle_marker_e34f344dd29d49f5ad4181d0a3449c94.bindPopup(popup_17ccea23bc114d2f824c9c9d443965c8);
+
+            
+        
+    
+            var circle_marker_22a5d57d96e547e3b290ca4593f7e6c6 = L.circleMarker(
+                [48.82789775,2.372877071],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_9199385d851045429e151ebc20c5b5f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_d632ef026970416194e778553cbdf72c = $('<div id="html_d632ef026970416194e778553cbdf72c" style="width: 100.0%; height: 100.0%;">La Gare, 13th arrondissement des Gobelins</div>')[0];
+                popup_9199385d851045429e151ebc20c5b5f6.setContent(html_d632ef026970416194e778553cbdf72c);
+            
+
+            circle_marker_22a5d57d96e547e3b290ca4593f7e6c6.bindPopup(popup_9199385d851045429e151ebc20c5b5f6);
+
+            
+        
+    
+            var circle_marker_071899eec9fa45c49886056b06e68290 = L.circleMarker(
+                [48.8253562,2.3414422000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_83841071a689491ea6108bff8313bec6 = L.popup({maxWidth: '300'});
+
+            
+                var html_16713df8dba740acb24b076e2a9aa7e1 = $('<div id="html_16713df8dba740acb24b076e2a9aa7e1" style="width: 100.0%; height: 100.0%;">Maison-Blanche, 13th arrondissement des Gobelins</div>')[0];
+                popup_83841071a689491ea6108bff8313bec6.setContent(html_16713df8dba740acb24b076e2a9aa7e1);
+            
+
+            circle_marker_071899eec9fa45c49886056b06e68290.bindPopup(popup_83841071a689491ea6108bff8313bec6);
+
+            
+        
+    
+            var circle_marker_706230a500bf43daa747a716e4e618ea = L.circleMarker(
+                [48.8347946,2.348047],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_10895920fe034bb893e6e437e81a2376 = L.popup({maxWidth: '300'});
+
+            
+                var html_a38134bb953041eeb1f02a87da1a0454 = $('<div id="html_a38134bb953041eeb1f02a87da1a0454" style="width: 100.0%; height: 100.0%;">Croulebarbe, 13th arrondissement des Gobelins</div>')[0];
+                popup_10895920fe034bb893e6e437e81a2376.setContent(html_a38134bb953041eeb1f02a87da1a0454);
+            
+
+            circle_marker_706230a500bf43daa747a716e4e618ea.bindPopup(popup_10895920fe034bb893e6e437e81a2376);
+
+            
+        
+    
+            var circle_marker_a149c6cf81d14b859c07d12a8ce7955a = L.circleMarker(
+                [48.8355214,2.3343553],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_9cabb793cd5c4ea6ae33ce15c67f6580 = L.popup({maxWidth: '300'});
+
+            
+                var html_295f4b13f6ff4f968fb11be818266ea4 = $('<div id="html_295f4b13f6ff4f968fb11be818266ea4" style="width: 100.0%; height: 100.0%;">Montparnasse, 14th arrondissement de l&#39;Observatoire</div>')[0];
+                popup_9cabb793cd5c4ea6ae33ce15c67f6580.setContent(html_295f4b13f6ff4f968fb11be818266ea4);
+            
+
+            circle_marker_a149c6cf81d14b859c07d12a8ce7955a.bindPopup(popup_9cabb793cd5c4ea6ae33ce15c67f6580);
+
+            
+        
+    
+            var circle_marker_2d39d72be4de40a4950a45df27de2bc9 = L.circleMarker(
+                [48.8223803,2.3378614],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_7588e23fad624625b47e387deba36c33 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab949a7f11c146af8931248c7c0969f5 = $('<div id="html_ab949a7f11c146af8931248c7c0969f5" style="width: 100.0%; height: 100.0%;">Parc Montsouris, 14th arrondissement de l&#39;Observatoire</div>')[0];
+                popup_7588e23fad624625b47e387deba36c33.setContent(html_ab949a7f11c146af8931248c7c0969f5);
+            
+
+            circle_marker_2d39d72be4de40a4950a45df27de2bc9.bindPopup(popup_7588e23fad624625b47e387deba36c33);
+
+            
+        
+    
+            var circle_marker_819a92fa3d55499ebabcde7b8f6174c0 = L.circleMarker(
+                [48.8286197,2.3190311],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_99262c67bf7746fc843ff2fbb7f5ba6b = L.popup({maxWidth: '300'});
+
+            
+                var html_42716d775d9140ccb581d2afcf651174 = $('<div id="html_42716d775d9140ccb581d2afcf651174" style="width: 100.0%; height: 100.0%;">Petit-Montrouge, 14th arrondissement de l&#39;Observatoire</div>')[0];
+                popup_99262c67bf7746fc843ff2fbb7f5ba6b.setContent(html_42716d775d9140ccb581d2afcf651174);
+            
+
+            circle_marker_819a92fa3d55499ebabcde7b8f6174c0.bindPopup(popup_99262c67bf7746fc843ff2fbb7f5ba6b);
+
+            
+        
+    
+            var circle_marker_d9c7965137634aa0a68c91abe76d30e3 = L.circleMarker(
+                [48.83244570000001,2.3072627],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_929bc0d4d7874c319d1200756653b7ab = L.popup({maxWidth: '300'});
+
+            
+                var html_1d354344ce7f427f83b293973c7d0725 = $('<div id="html_1d354344ce7f427f83b293973c7d0725" style="width: 100.0%; height: 100.0%;">Plaisance, 14th arrondissement de l&#39;Observatoire</div>')[0];
+                popup_929bc0d4d7874c319d1200756653b7ab.setContent(html_1d354344ce7f427f83b293973c7d0725);
+            
+
+            circle_marker_d9c7965137634aa0a68c91abe76d30e3.bindPopup(popup_929bc0d4d7874c319d1200756653b7ab);
+
+            
+        
+    
+            var circle_marker_4692f67cc80b467f8e9beca6d190ec76 = L.circleMarker(
+                [48.8377867,2.2939486],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_e1213085309e45499429d054bb90b789 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b51dacb11234b64848091bc313f8c9a = $('<div id="html_4b51dacb11234b64848091bc313f8c9a" style="width: 100.0%; height: 100.0%;">Saint-Lambert, 15th arrondissement de Vaugirard</div>')[0];
+                popup_e1213085309e45499429d054bb90b789.setContent(html_4b51dacb11234b64848091bc313f8c9a);
+            
+
+            circle_marker_4692f67cc80b467f8e9beca6d190ec76.bindPopup(popup_e1213085309e45499429d054bb90b789);
+
+            
+        
+    
+            var circle_marker_3d5c007613c34a558b9620ccbe5bd7e6 = L.circleMarker(
+                [48.8418092,2.3013287],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_14ea186548cf4defb3059090c790cccd = L.popup({maxWidth: '300'});
+
+            
+                var html_f12cd8a5df59413bb91c2d6b277ff896 = $('<div id="html_f12cd8a5df59413bb91c2d6b277ff896" style="width: 100.0%; height: 100.0%;">Necker, 15th arrondissement de Vaugirard</div>')[0];
+                popup_14ea186548cf4defb3059090c790cccd.setContent(html_f12cd8a5df59413bb91c2d6b277ff896);
+            
+
+            circle_marker_3d5c007613c34a558b9620ccbe5bd7e6.bindPopup(popup_14ea186548cf4defb3059090c790cccd);
+
+            
+        
+    
+            var circle_marker_bb36a4e19daa44da9b02a32d2202a579 = L.circleMarker(
+                [48.8505151,2.2839762],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_f54346b39ca3431b9c4ea14b607897cb = L.popup({maxWidth: '300'});
+
+            
+                var html_14908c07197349b48c9dc41749b43b8a = $('<div id="html_14908c07197349b48c9dc41749b43b8a" style="width: 100.0%; height: 100.0%;">Grenelle, 15th arrondissement de Vaugirard</div>')[0];
+                popup_f54346b39ca3431b9c4ea14b607897cb.setContent(html_14908c07197349b48c9dc41749b43b8a);
+            
+
+            circle_marker_bb36a4e19daa44da9b02a32d2202a579.bindPopup(popup_f54346b39ca3431b9c4ea14b607897cb);
+
+            
+        
+    
+            var circle_marker_d9eae57585444328b4bb777467d5ad99 = L.circleMarker(
+                [48.8385722,2.2725247000000004],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_28feb92e0dd848779e3a458ac8590389 = L.popup({maxWidth: '300'});
+
+            
+                var html_33e076ddc67e4b45957f0a65d2e103d8 = $('<div id="html_33e076ddc67e4b45957f0a65d2e103d8" style="width: 100.0%; height: 100.0%;">Javel, 15th arrondissement de Vaugirard</div>')[0];
+                popup_28feb92e0dd848779e3a458ac8590389.setContent(html_33e076ddc67e4b45957f0a65d2e103d8);
+            
+
+            circle_marker_d9eae57585444328b4bb777467d5ad99.bindPopup(popup_28feb92e0dd848779e3a458ac8590389);
+
+            
+        
+    
+            var circle_marker_4d8f1bea39d4423f9ccde72aa771c662 = L.circleMarker(
+                [48.8570816,2.2278736],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_a261cdff20ca490ca030a469f978aa67 = L.popup({maxWidth: '300'});
+
+            
+                var html_8f69cf678e0748fb9ac95a0ab056c902 = $('<div id="html_8f69cf678e0748fb9ac95a0ab056c902" style="width: 100.0%; height: 100.0%;">Auteuil, 16th arrondissement de Passy</div>')[0];
+                popup_a261cdff20ca490ca030a469f978aa67.setContent(html_8f69cf678e0748fb9ac95a0ab056c902);
+            
+
+            circle_marker_4d8f1bea39d4423f9ccde72aa771c662.bindPopup(popup_a261cdff20ca490ca030a469f978aa67);
+
+            
+        
+    
+            var circle_marker_41696e305cbe4c6b9ef8588848e2329a = L.circleMarker(
+                [48.858417,2.2708533],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_5aa64d4127a74c769d5ab703079ef7ef = L.popup({maxWidth: '300'});
+
+            
+                var html_20296ef5d85d4fa1920e5f320bf22cb6 = $('<div id="html_20296ef5d85d4fa1920e5f320bf22cb6" style="width: 100.0%; height: 100.0%;">La Muette, 16th arrondissement de Passy</div>')[0];
+                popup_5aa64d4127a74c769d5ab703079ef7ef.setContent(html_20296ef5d85d4fa1920e5f320bf22cb6);
+            
+
+            circle_marker_41696e305cbe4c6b9ef8588848e2329a.bindPopup(popup_5aa64d4127a74c769d5ab703079ef7ef);
+
+            
+        
+    
+            var circle_marker_8bc72327c66d42599516fd115bc2a29d = L.circleMarker(
+                [48.8716262,2.253769],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_a0827b6007964c2c8d93e82247fbba01 = L.popup({maxWidth: '300'});
+
+            
+                var html_1162cbe14bfe4802bbb88af006d1a96f = $('<div id="html_1162cbe14bfe4802bbb88af006d1a96f" style="width: 100.0%; height: 100.0%;">Porte-Dauphine, 16th arrondissement de Passy</div>')[0];
+                popup_a0827b6007964c2c8d93e82247fbba01.setContent(html_1162cbe14bfe4802bbb88af006d1a96f);
+            
+
+            circle_marker_8bc72327c66d42599516fd115bc2a29d.bindPopup(popup_a0827b6007964c2c8d93e82247fbba01);
+
+            
+        
+    
+            var circle_marker_f1b9144f45894eea8ca85bd9a845a25d = L.circleMarker(
+                [48.8615963,2.2870936],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_20fd1f3d86814804ab1169c92ba51db8 = L.popup({maxWidth: '300'});
+
+            
+                var html_70674f3fd8ed425b9edd000cedeaf317 = $('<div id="html_70674f3fd8ed425b9edd000cedeaf317" style="width: 100.0%; height: 100.0%;">Chaillot, 16th arrondissement de Passy</div>')[0];
+                popup_20fd1f3d86814804ab1169c92ba51db8.setContent(html_70674f3fd8ed425b9edd000cedeaf317);
+            
+
+            circle_marker_f1b9144f45894eea8ca85bd9a845a25d.bindPopup(popup_20fd1f3d86814804ab1169c92ba51db8);
+
+            
+        
+    
+            var circle_marker_b7fb444393124c5aa5ed2e9418bde01f = L.circleMarker(
+                [48.887401,2.2875199],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_2cc0a62db9ea4ee2b9ffa0bebec9da69 = L.popup({maxWidth: '300'});
+
+            
+                var html_8843cc670c434ee7ab240c015dd1495c = $('<div id="html_8843cc670c434ee7ab240c015dd1495c" style="width: 100.0%; height: 100.0%;">Les Ternes, 17th arrondissement des Batignolles-Monceau</div>')[0];
+                popup_2cc0a62db9ea4ee2b9ffa0bebec9da69.setContent(html_8843cc670c434ee7ab240c015dd1495c);
+            
+
+            circle_marker_b7fb444393124c5aa5ed2e9418bde01f.bindPopup(popup_2cc0a62db9ea4ee2b9ffa0bebec9da69);
+
+            
+        
+    
+            var circle_marker_b833814db19a41eaa92f6a7718f2cd95 = L.circleMarker(
+                [48.8843357,2.2952977000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_7b779a308e8646bf94b7fcdc4b66653a = L.popup({maxWidth: '300'});
+
+            
+                var html_49f3b037d7ab4b80abb23f37d7c42784 = $('<div id="html_49f3b037d7ab4b80abb23f37d7c42784" style="width: 100.0%; height: 100.0%;">Plaine Monceau, 17th arrondissement des Batignolles-Monceau</div>')[0];
+                popup_7b779a308e8646bf94b7fcdc4b66653a.setContent(html_49f3b037d7ab4b80abb23f37d7c42784);
+            
+
+            circle_marker_b833814db19a41eaa92f6a7718f2cd95.bindPopup(popup_7b779a308e8646bf94b7fcdc4b66653a);
+
+            
+        
+    
+            var circle_marker_1a35e63e44f64e0898eda7e81beb13b0 = L.circleMarker(
+                [48.8848532,2.3135095000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_dd0f76ca6ec94c9f96f83c13a63cc06e = L.popup({maxWidth: '300'});
+
+            
+                var html_adb85a2f8bae47aa952cc1dd2e39c2cd = $('<div id="html_adb85a2f8bae47aa952cc1dd2e39c2cd" style="width: 100.0%; height: 100.0%;">Batignolles, 17th arrondissement des Batignolles-Monceau</div>')[0];
+                popup_dd0f76ca6ec94c9f96f83c13a63cc06e.setContent(html_adb85a2f8bae47aa952cc1dd2e39c2cd);
+            
+
+            circle_marker_1a35e63e44f64e0898eda7e81beb13b0.bindPopup(popup_dd0f76ca6ec94c9f96f83c13a63cc06e);
+
+            
+        
+    
+            var circle_marker_213b1e5cd6a745b0a0bb5d207253b212 = L.circleMarker(
+                [48.8912408,2.3126872000000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_abc5fe570d364d96a155f663a8c6aaa2 = L.popup({maxWidth: '300'});
+
+            
+                var html_f96106fcf9a94160bd4f9a3329fc6a60 = $('<div id="html_f96106fcf9a94160bd4f9a3329fc6a60" style="width: 100.0%; height: 100.0%;">Epinettes, 17th arrondissement des Batignolles-Monceau</div>')[0];
+                popup_abc5fe570d364d96a155f663a8c6aaa2.setContent(html_f96106fcf9a94160bd4f9a3329fc6a60);
+            
+
+            circle_marker_213b1e5cd6a745b0a0bb5d207253b212.bindPopup(popup_abc5fe570d364d96a155f663a8c6aaa2);
+
+            
+        
+    
+            var circle_marker_af6f5144b48c4f9b87f92b9593a54532 = L.circleMarker(
+                [48.8901299,2.3232649],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_ab2e1b93cc7e46c381045ac7b59040d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_c3d914e63b7541bbacc768dab7fa4d75 = $('<div id="html_c3d914e63b7541bbacc768dab7fa4d75" style="width: 100.0%; height: 100.0%;">Grandes-Carrieres, 18th arrondissement des Buttes-Montmartre</div>')[0];
+                popup_ab2e1b93cc7e46c381045ac7b59040d8.setContent(html_c3d914e63b7541bbacc768dab7fa4d75);
+            
+
+            circle_marker_af6f5144b48c4f9b87f92b9593a54532.bindPopup(popup_ab2e1b93cc7e46c381045ac7b59040d8);
+
+            
+        
+    
+            var circle_marker_b839b756fc494d918641aba0fedc80a3 = L.circleMarker(
+                [48.883937,2.3451726],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_2600296826434beaaf6153512c1a5ffa = L.popup({maxWidth: '300'});
+
+            
+                var html_7f66289de5064592872372340734363f = $('<div id="html_7f66289de5064592872372340734363f" style="width: 100.0%; height: 100.0%;">Clignancourt, 18th arrondissement des Buttes-Montmartre</div>')[0];
+                popup_2600296826434beaaf6153512c1a5ffa.setContent(html_7f66289de5064592872372340734363f);
+            
+
+            circle_marker_b839b756fc494d918641aba0fedc80a3.bindPopup(popup_2600296826434beaaf6153512c1a5ffa);
+
+            
+        
+    
+            var circle_marker_da01de0115a84581be7e93935985c15f = L.circleMarker(
+                [48.89113370000001,2.3460763],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_0a0d2af940754845a360ff0898bd1451 = L.popup({maxWidth: '300'});
+
+            
+                var html_1247b6c42c1b4daf9c41d80184e3afc9 = $('<div id="html_1247b6c42c1b4daf9c41d80184e3afc9" style="width: 100.0%; height: 100.0%;">Goutte-d&#39;Or, 18th arrondissement des Buttes-Montmartre</div>')[0];
+                popup_0a0d2af940754845a360ff0898bd1451.setContent(html_1247b6c42c1b4daf9c41d80184e3afc9);
+            
+
+            circle_marker_da01de0115a84581be7e93935985c15f.bindPopup(popup_0a0d2af940754845a360ff0898bd1451);
+
+            
+        
+    
+            var circle_marker_e72de30dc5a142b08d44ba0f89832ac4 = L.circleMarker(
+                [48.886191,2.3255799],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_535374541e374e05bd40a916ffeaeb75 = L.popup({maxWidth: '300'});
+
+            
+                var html_2a97e3746da442ce942e2d0ac5110e8d = $('<div id="html_2a97e3746da442ce942e2d0ac5110e8d" style="width: 100.0%; height: 100.0%;">La Chapelle, 18th arrondissement des Buttes-Montmartre</div>')[0];
+                popup_535374541e374e05bd40a916ffeaeb75.setContent(html_2a97e3746da442ce942e2d0ac5110e8d);
+            
+
+            circle_marker_e72de30dc5a142b08d44ba0f89832ac4.bindPopup(popup_535374541e374e05bd40a916ffeaeb75);
+
+            
+        
+    
+            var circle_marker_5c19c3300f474c26b6d2b4662459cc6c = L.circleMarker(
+                [48.8818586,2.3721922],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_9ddad4629e61473c9fc79b6cac330294 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac8d26623bcb4be3b081c9853d7c9c3f = $('<div id="html_ac8d26623bcb4be3b081c9853d7c9c3f" style="width: 100.0%; height: 100.0%;">La Villette, 19th arrondissement des Buttes-Chaumont</div>')[0];
+                popup_9ddad4629e61473c9fc79b6cac330294.setContent(html_ac8d26623bcb4be3b081c9853d7c9c3f);
+            
+
+            circle_marker_5c19c3300f474c26b6d2b4662459cc6c.bindPopup(popup_9ddad4629e61473c9fc79b6cac330294);
+
+            
+        
+    
+            var circle_marker_b08895aa1e6e4d7da3879e14dd932369 = L.circleMarker(
+                [48.8870941,2.3702204],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_9eac4dce2a2b40f09f8d8dbb7107c5a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_3ca5fd2684374081be5dd72aa59011cc = $('<div id="html_3ca5fd2684374081be5dd72aa59011cc" style="width: 100.0%; height: 100.0%;">Pont-de-Flandres, 19th arrondissement des Buttes-Chaumont</div>')[0];
+                popup_9eac4dce2a2b40f09f8d8dbb7107c5a2.setContent(html_3ca5fd2684374081be5dd72aa59011cc);
+            
+
+            circle_marker_b08895aa1e6e4d7da3879e14dd932369.bindPopup(popup_9eac4dce2a2b40f09f8d8dbb7107c5a2);
+
+            
+        
+    
+            var circle_marker_bdafd9df3c9848f0a47cfbcc3a85591b = L.circleMarker(
+                [48.8779557,2.3853066000000003],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_c09242b0a7974836a765decc3e107218 = L.popup({maxWidth: '300'});
+
+            
+                var html_88444e81a4b34f80bca5518669ff1d64 = $('<div id="html_88444e81a4b34f80bca5518669ff1d64" style="width: 100.0%; height: 100.0%;">Amerique, 19th arrondissement des Buttes-Chaumont</div>')[0];
+                popup_c09242b0a7974836a765decc3e107218.setContent(html_88444e81a4b34f80bca5518669ff1d64);
+            
+
+            circle_marker_bdafd9df3c9848f0a47cfbcc3a85591b.bindPopup(popup_c09242b0a7974836a765decc3e107218);
+
+            
+        
+    
+            var circle_marker_c7af4a433b0142b6bd38a6610834ff92 = L.circleMarker(
+                [48.8792058,2.3768468],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_94c752087fd84ba79e4a712ed3dd8a23 = L.popup({maxWidth: '300'});
+
+            
+                var html_8129dd63c8084d9682565df5705e1b17 = $('<div id="html_8129dd63c8084d9682565df5705e1b17" style="width: 100.0%; height: 100.0%;">Combat, 19th arrondissement des Buttes-Chaumont</div>')[0];
+                popup_94c752087fd84ba79e4a712ed3dd8a23.setContent(html_8129dd63c8084d9682565df5705e1b17);
+            
+
+            circle_marker_c7af4a433b0142b6bd38a6610834ff92.bindPopup(popup_94c752087fd84ba79e4a712ed3dd8a23);
+
+            
+        
+    
+            var circle_marker_5f06ad4670094029b9ad60f81c3ec3bd = L.circleMarker(
+                [48.87112310000001,2.3779658],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_4328644365ec46ba9b69ad09885684cd = L.popup({maxWidth: '300'});
+
+            
+                var html_498e3541224444c08ccacc75b32fa20c = $('<div id="html_498e3541224444c08ccacc75b32fa20c" style="width: 100.0%; height: 100.0%;">Belleville, 20th arrondissement de Menilmontant</div>')[0];
+                popup_4328644365ec46ba9b69ad09885684cd.setContent(html_498e3541224444c08ccacc75b32fa20c);
+            
+
+            circle_marker_5f06ad4670094029b9ad60f81c3ec3bd.bindPopup(popup_4328644365ec46ba9b69ad09885684cd);
+
+            
+        
+    
+            var circle_marker_2568330aba0e435789cc8080bd53b08e = L.circleMarker(
+                [48.8697905,2.3933968],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_874cd4dc2a8641b6b3b6fec26a39b4fb = L.popup({maxWidth: '300'});
+
+            
+                var html_2073feb6eefc449fb4c701c68028855e = $('<div id="html_2073feb6eefc449fb4c701c68028855e" style="width: 100.0%; height: 100.0%;">Saint-Fargeau, 20th arrondissement de Menilmontant</div>')[0];
+                popup_874cd4dc2a8641b6b3b6fec26a39b4fb.setContent(html_2073feb6eefc449fb4c701c68028855e);
+            
+
+            circle_marker_2568330aba0e435789cc8080bd53b08e.bindPopup(popup_874cd4dc2a8641b6b3b6fec26a39b4fb);
+
+            
+        
+    
+            var circle_marker_ae57da58eadb4378807841d8aabd8b17 = L.circleMarker(
+                [48.8592722,2.3916061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_448e7095d76240738ee4ea9062608bdd = L.popup({maxWidth: '300'});
+
+            
+                var html_cc4374db2e024f709100eeac9afbb3d1 = $('<div id="html_cc4374db2e024f709100eeac9afbb3d1" style="width: 100.0%; height: 100.0%;">Pere-Lachaise, 20th arrondissement de Menilmontant</div>')[0];
+                popup_448e7095d76240738ee4ea9062608bdd.setContent(html_cc4374db2e024f709100eeac9afbb3d1);
+            
+
+            circle_marker_ae57da58eadb4378807841d8aabd8b17.bindPopup(popup_448e7095d76240738ee4ea9062608bdd);
+
+            
+        
+    
+            var circle_marker_b5aec16b49734dcebc496fd0bfa6a568 = L.circleMarker(
+                [48.85570560000001,2.3941297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#3186cc",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_a550a9c6554045b28cf28f0ddc256ca1);
+            
+    
+            var popup_060e27ce877b4c328e6e803b6d2ca167 = L.popup({maxWidth: '300'});
+
+            
+                var html_73ce5a3a07e944a1a73cf55ce44c856d = $('<div id="html_73ce5a3a07e944a1a73cf55ce44c856d" style="width: 100.0%; height: 100.0%;">Charonne, 20th arrondissement de Menilmontant</div>')[0];
+                popup_060e27ce877b4c328e6e803b6d2ca167.setContent(html_73ce5a3a07e944a1a73cf55ce44c856d);
+            
+
+            circle_marker_b5aec16b49734dcebc496fd0bfa6a568.bindPopup(popup_060e27ce877b4c328e6e803b6d2ca167);
+
+            
+        
+</script>

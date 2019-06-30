@@ -1,4 +1,4 @@
-Coursera_Capstone
+Coursera_Capstone_Submission
 
 "Real World Data for Real World Solutions", a Tailor Made Liveability Index was
 created to help a client weigh relocation options.

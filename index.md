@@ -1,6 +1,10 @@
 ## Ready for a career in data science with demonstrated ability to solve for real-world problems. 
 
-Real world data was analysed with inferential statistical testing by k-means clustering. Each neighbourhood’s closest match within boroughs was 
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://www.linkedin.com/in/lindangulopez/)
+
+I am an independent learner of the use of data science for sustainable development. I have a strong sense of community and am a mentor and tutor in ecology, botany, natural history illustration, geographic information systems and business English. Data Science Toolbox [#ArcGIS - Excel - #SQL - R - #Python - JavaScript]
+
+Here, a real world data was analysed with inferential statistical testing by k-means clustering. Each neighbourhood’s closest match within boroughs was 
 sought by venues. [Machine Learning was used to cluster the neighbourhoods](https://lindangulopez.github.io/testing-page/map_clusters.html) and a Tailor-Made Liveability Indicator was applied to the clusters to 
 make recommendations on relocation options with [Word Clouds](https://amueller.github.io/word_cloud/), i.e. text clouds or tag clouds.  The Word Cloud were created with 640 words from the 
 [EIU’s Liveability Index](https://www.eiu.com/public/topical_report.aspx?campaignid=Liveability17) and 360 words from the venue data sets, for each neighbourhood, borough and the cities of New York, Toronto and Paris. 
@@ -21,9 +25,6 @@ in a big city it rated Toronto, Paris and New York as 4th, 29th and 55th respect
 
 *** They want to keep the habit of taking walks in gardens and *** is picky eater (they only eat at French restaurants), *** wants to be in a crime free environment and *** most of all away from congestion and public transport problems!}
 
-I am an independent learner of the use of data science for sustainable development. I have a strong sense of community and am a mentor and tutor in ecology, botany, natural history illustration, geographic information systems and business English. Data Science Toolbox [#ArcGIS - Excel - #SQL - R - #Python - JavaScript]
-
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://www.linkedin.com/in/lindangulopez/)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://www.linkedin.com/in/lindangulopez/)
 

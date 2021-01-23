@@ -14,8 +14,7 @@ in a big city it rated Toronto, Paris and New York as 4th, 29th and 55th respect
 
 ![Leaflet Map](https://github.com/lindangulopez/Coursera_Capstone/blob/master/LeafletMap.png?raw=true)
 
-PROCET: 
-{
+### project specs:{
 **A relocation adviser has to make recommendations to person who has two job offers, one in Manhattan, New York and another in York, Toronto. The client is Parisian and would like to maintain their lifestyle.
 
 *** They want to keep the habit of taking walks in gardens and *** is picky eater (they only eat at French restaurants), *** wants to be in a crime free environment and *** most of all away from congestion and public transport problems!
